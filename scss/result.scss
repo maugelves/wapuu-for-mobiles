@@ -1,0 +1,21 @@
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+    .result__img {
+        height: auto;
+        width: 90%;
+    }
+
+
+@media screen and (min-width: 1024px) {
+
+    .result {
+        margin-top: 0;
+    }
+
+}

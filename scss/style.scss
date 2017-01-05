@@ -1,0 +1,42 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Arima Madurai', cursive;
+}
+
+@import "reset.scss";
+@import "container.scss";
+@import "block.scss";
+@import "header.scss";
+@import "resolution.scss";
+@import "wapuus.scss";
+@import "result.scss";
+@import "selector.scss";
+@import "button.scss";
+@import "color.scss";
+
+
+body {
+  font-family: var(--main-font);
+  font-size: 10px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+h1 {
+  font-family: var(--secondary-font);
+  font-size: 8em;
+}
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .main {
+    display: flex;
+  }
+
+}

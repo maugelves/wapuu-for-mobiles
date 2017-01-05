@@ -1,0 +1,24 @@
+.block {
+  margin-bottom: 35px;
+  padding: 25px 30px;
+  transition: all 0.4s;
+}
+
+.block--grey { background-color: #f0f0f0; }
+
+  .block:last-child { margin-bottom: 0; }
+
+  .block__title {
+    font-size: 4em;
+    margin-bottom: 15px;
+  }
+
+
+
+@media screen and (min-width: 768px) {
+
+  .block__title {
+    font-size: 2em;
+  }
+
+}

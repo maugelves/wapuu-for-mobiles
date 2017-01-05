@@ -1,0 +1,39 @@
+.iis-effect-slide .iis-slide {
+  background-size: contain;
+}
+
+.wapuus {
+  background-color: lightgrey;
+  box-shadow: inset rgba(0,0,0,0.3) 3px 3px;
+  margin-bottom: 25px;
+}
+
+.wapuu {
+  height: auto;
+  max-width: 250px;
+}
+
+.owl-carousel {
+  cursor: pointer;
+}
+.owl-item {
+  transition: opacity 0.4s;
+}
+.owl-item{
+  opacity: 0.2;
+}
+.owl-item.center{
+  opacity: 1;
+}
+
+.wapuusdiv {
+}
+
+
+  @media screen and (min-width: 768px){
+    .wapuu {
+
+    }
+
+
+  }
